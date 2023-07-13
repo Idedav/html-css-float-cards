@@ -6,8 +6,14 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
-    width: 80%;
+    width: 1500px;
     margin: auto;
+}
+
+.clearfix{
+    content:'';
+    display: table;
+    clear: both;
 }
 
 header h1,
@@ -28,10 +34,19 @@ section .text{
     padding-bottom: 30px;
 }
 
+
 .badge{
-    width: 700px;
-    height: 200px;
+    width:400px;
     background-color: black;
     margin: 30px;
     float: left;
 }
+
+.badge span{
+    color: white;
+}
+
+.badge img{
+    width: 150px;
+    float: left;
+}  
